@@ -11,16 +11,73 @@
     <nav id="nav-menu" class="nav-bar">
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <li><a class="nav-link home" href="#home">Home</a></li>
         </li>
       </ul>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-link about" href="#about">About</a></li>
+        <li><a class="nav-link skills" href="#skills">Skills</a></li>
+        <li><a class="nav-link projects" href="#projects">Projects</a></li>
+        <li><a class="nav-link contact" href="#contact">Contact</a></li>
       </ul>
+      <ul>
+        <li><a class="nav-link resume" id="resume-link-1" href="path/to/resume.pdf" target="_blank" download>Resume</a></li>
+    </ul>
     </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+      <img class="home-img" src="path/to/professional-photo.jpg" alt="My Photo">
+      <h1 id="user-detail-name">Your Name</h1>
+      <p id="user-detail-intro">Formal introduction goes here.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+      <!-- About content goes here -->
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+      <div class="skills-card">
+          <img class="skills-card-img" src="path/to/skill1.jpg" alt="Skill 1">
+          <h2 class="skills-card-name">Skill 1</h2>
+      </div>
+      <div class="skills-card">
+          <img class="skills-card-img" src="path/to/skill2.jpg" alt="Skill 2">
+          <h2 class="skills-card-name">Skill 2</h2>
+      </div>
+      <!-- Add more skills cards as needed -->
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+      <div class="project-card">
+          <img src="path/to/project1.jpg" alt="Project 1">
+          <h2 class="project-title">Project 1</h2>
+          <p class="project-description">Project 1 description goes here.</p>
+          <p class="project-tech-stack">Tech stack used: Tech 1, Tech 2, Tech 3</p>
+          <a class="project-github-link" href="link-to-github-repo1" target="_blank">GitHub Repo</a>
+          <a class="project-deployed-link" href="link-to-deployed-project1" target="_blank">Deployed Project</a>
+      </div>
+      <div class="project-card">
+          <img src="path/to/project2.jpg" alt="Project 2">
+          <h2 class="project-title">Project 2</h2>
+          <p class="project-description">Project 2 description goes here.</p>
+          <p class="project-tech-stack">Tech stack used: Tech 4, Tech 5, Tech 6</p>
+          <a class="project-github-link" href="link-to-github-repo2" target="_blank">GitHub Repo</a>
+          <a class="project-deployed-link" href="link-to-deployed-project2" target="_blank">Deployed Project</a>
+      </div>
+      <!-- Add more project cards as needed -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+      <a id="contact-github" href="https://github.com/yourusername" target="_blank">GitHub Profile</a>
+      <a id="contact-linkedin" href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn Profile</a>
+      <p id="contact-phone">Phone: (123) 456-7890</p>
+      <p id="contact-email">Email: yourname@example.com</p>
+  </section>
 
   </body>
 </html>
