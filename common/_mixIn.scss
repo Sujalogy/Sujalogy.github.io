@@ -1,0 +1,12 @@
+@import "./variable";
+
+@mixin universalFit { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-Comfortaa;
+}
+@mixin bodyFit {
+    background-color: $main-bg;
+    width: 100%;
+}

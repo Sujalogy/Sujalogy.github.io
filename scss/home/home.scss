@@ -1,0 +1,45 @@
+@import "../../common/variable";
+@import "../../common/mixIn";
+
+* {
+  @include universalFit;
+}
+
+body {
+  @include bodyFit;
+}
+
+// Nav Bar---------------------------------------------------------------------
+.nav-bar {
+    display: flex;
+    height: 3rem;
+    margin: 0.31rem 0;
+    justify-content: space-between;
+    padding: 0px 40px;
+    ul {
+        display: block;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        gap: 4rem;
+        li {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                border: 1px solid #ffffff2b;
+                border-radius: $radius;
+                font-size: 1em;
+                padding: .7em 1.2em;
+                color: white;
+                transition: box-shadow 0.5s ease;
+            }
+            a:hover {
+                box-shadow: rgba(255, 255, 255, 0.756) 0px 35px 20px -19px;
+            }
+        }
+    }
+}
+    // Media Query :
+// Nav Bar---------------------------------------------------------------------

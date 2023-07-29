@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Philosopher:wght@400;700&family=Poiret+One&family=Shadows+Into+Light&family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Philosopher:wght@400;700&family=Poiret+One&family=Shadows+Into+Light&family=Zeyada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: #070321;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  height: 3rem;
+  margin: 0.31rem 0;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.nav-bar ul {
+  display: block;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 4rem;
+}
+.nav-bar ul li {
+  list-style-type: none;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.168627451);
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 0.7em 1.2em;
+  color: white;
+  transition: box-shadow 0.5s ease;
+}
+.nav-bar ul li a:hover {
+  box-shadow: rgba(255, 255, 255, 0.756) 0px 35px 20px -19px;
+}/*# sourceMappingURL=home.css.map */
