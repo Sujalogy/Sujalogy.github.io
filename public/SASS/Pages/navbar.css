@@ -1,0 +1,19 @@
+#nav-menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+#nav-menu ul li {
+  display: grid;
+  grid-template-columns: repeat(6, 20px);
+}
+#nav-menu ul li .nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+#nav-menu ul li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */
